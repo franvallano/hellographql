@@ -1,0 +1,14 @@
+type Query{
+    projects: [Project]
+}
+
+type Project{
+    id: ID!
+    name: String
+    developers: [Developer]
+}
+
+type Mutation{
+    newProject(name: String!): Project!
+    updateProject(id: ID!, name: String!): Project
+}
