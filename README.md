@@ -1,12 +1,12 @@
 # helloGraphql
 
-_helloGraphql_ es un proyecto desarrollado con el fin de aprender 
-como desarrollar una aplicación con kotlin haciendo uso de Graphql para 
-la implementación del API. 
+_helloGraphql_ it's a project developed in order to learn
+ how to develop an application with kotlin using Graphql to
+ the implementation of the API.
 
-Éste proyecto, por comodidad y para agilizar el desarrollo, usa una BBDD Mongodb.
+This project, for convenience and to expedite the development, uses a Mongodb DB.
 
-### Pre-requisitos 📋
+### Requirements 📋
 
 ```
 Java 8v
@@ -14,30 +14,30 @@ Maven 3.6.0v
 Docker 18.09.2v
 ```
 
-### Instalación 🔧
+### Install 🔧
 
-_helloGraphql_ es un proyecto basado en Maven. Por tanto, para construir este proyecto debemos ejecutar el siguiente comando:
+_helloGraphql_ it's a project based on Maven. Therefore, to build this project we must execute the following command:
 
 ```
 mvn clean install
 ```
 
-## Despliegue 📦
+## Deployment 📦
 
-Para levantar el proyecto, en primer lugar, debemos levantar 
-un contenedor Docker que contenga la BBDD Mongodb. Para ello ejecutamos el siguiente comando:
+To deploy the project, first of all, we must deploy
+a Docker image that contains the Mongodb DB. For this we execute the following command:
 
 ```
 docker run -d -p 27017:27017 --name hellographql bitnami/mongodb
 ```
 
-Una vez levantada la BBDD, procedemos a levantar el proyecto:
+Once the DB is deployment, we proceed to deploy the project:
 
 ```
  mvn spring-boot:run
 ```
 
-## Construido con 🛠️
+## Build with 🛠️
 
 * [Kotlin](https://kotlinlang.org) 
 * [Spring Boot](https://spring.io/projects/spring-boot)
@@ -46,4 +46,4 @@ Una vez levantada la BBDD, procedemos a levantar el proyecto:
 * [GraphQL](https://graphql.org/)
 
 ---
-⌨️ con ❤️ por [franvallano](https://www.linkedin.com/in/francisco-javier-delgado-vallano-b28b1670/)
+⌨️ with ❤️ by [franvallano](https://www.linkedin.com/in/francisco-javier-delgado-vallano-b28b1670/)
