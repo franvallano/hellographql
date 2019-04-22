@@ -43,7 +43,7 @@ Una vez levantada la BBDD, procedemos a levantar el proyecto:
 * [Spring Boot](https://spring.io/projects/spring-boot)
 * [Maven](https://maven.apache.org/)
 * [MongoDB](https://www.mongodb.com/)
-* [GraphQl](https://graphql.org/)
+* [GraphQL](https://graphql.org/)
 
 ---
-⌨️ con ❤️ por [franvallano](https://www.linkedin.com/in/francisco-javier-delgado-vallano-b28b1670/) 😊
+⌨️ con ❤️ por [franvallano](https://www.linkedin.com/in/francisco-javier-delgado-vallano-b28b1670/)
