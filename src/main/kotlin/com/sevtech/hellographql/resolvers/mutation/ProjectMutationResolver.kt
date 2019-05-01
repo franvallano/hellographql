@@ -9,9 +9,7 @@ import org.springframework.stereotype.Component
 import java.util.*
 
 @Component
-class ProjectMutationResolver(val projectRepository: ProjectRepository,
-                              val developerQueryResolver: DeveloperQueryResolver,
-                              val developerRepository: DeveloperRepository) : GraphQLMutationResolver {
+class ProjectMutationResolver(val projectRepository: ProjectRepository) : GraphQLMutationResolver {
 
     fun newProject(name: String): Project {
         val project = Project(UUID.randomUUID().toString(), name)
