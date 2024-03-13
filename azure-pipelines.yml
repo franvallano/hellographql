@@ -23,8 +23,8 @@ steps:
 
 - task: Sonarcloud@1
   inputs:
-    SentrioService: test
-    SonarcloudService: https://sonarcloud.io/
+    SentrioService: Sentrio server connection
+    SonarcloudService: Sonarcloud
     projectId: 'hellographql'
     SonarcloudApplicationId: 'franvallano_hellographql'
     branch: 'main'
