@@ -27,4 +27,4 @@ steps:
     SonarcloudService: Sonarcloud
     projectId: 'hellographql'
     SonarcloudApplicationId: 'franvallano_hellographql'
-    branch: 'main'
+    branch: 'master'
