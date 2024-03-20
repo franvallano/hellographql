@@ -28,3 +28,11 @@ steps:
     projectId: 'Sentrio'
     sonarqubeApplicationId: 'franvallano_hellographql'
     branch: 'master'
+
+- task: SentrioDeploy@0
+  inputs:
+    SentrioService: 'Sentrio connect'
+    projectId: 'Sentrio'
+    application: 'sentrio'
+    environment: 'dev'
+    commitMessage: '$(Build.SourceVersionMessage)'
